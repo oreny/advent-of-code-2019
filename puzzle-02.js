@@ -24,7 +24,6 @@ function initAndExecute(input, noun, verb) {
     memory[2] = verb;
     compute(memory);
     return memory[0];
-
 }
 
 const input = fs.readFileSync('./input-files/puzzle-02.txt', 'utf-8').split(",").map(x => Number(x));
